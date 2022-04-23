@@ -1,0 +1,10 @@
+version: v1
+build:
+  excludes:
+    - dir_with_1000000_files
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE
